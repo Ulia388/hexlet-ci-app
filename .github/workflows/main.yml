@@ -15,5 +15,5 @@ jobs:
         node-version: '16'
     - run: npm install
     - name: Run Tests
-    - run: npm test
+      run: npm test
     - uses: hexlet-components/hello-from-hexlet-action@release
